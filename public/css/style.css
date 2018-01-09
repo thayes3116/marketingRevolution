@@ -45,7 +45,9 @@ body{
  	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
  	color: #ffffff;
 }   
-
+.video-overlay {
+    height: 40vh;
+}
 /* This is just some CSS styling to make the video fill 100% of its div */
 .videoContainer {
     height:100%;
