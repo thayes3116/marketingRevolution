@@ -55,6 +55,7 @@ body{
 .host-video-div {
     display:flex;
     justify-content: center;
+    height: 30vh;
 }
 /* This is just some CSS styling to make the video fill 100% of its div */
 .videoContainer {
