@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 // connects to home page
 app.get('/', function(req, res) {
-	res.sendFile(path.join(__dirname + '/index.html'));
+	res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
 app.listen(PORT, function() {

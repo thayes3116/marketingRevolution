@@ -18,8 +18,8 @@ body{
 }
 .header {
 	height: 20vh;
-	background-color: #ff9400;
-	color: #ffca0c;
+	background-color: #369dff;
+	color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -32,19 +32,18 @@ body{
 	margin-right: 5%;
 }
 .nav a {
-	color: #ffca0c;
+	color: #ffffff;
 	font-size: 18px;
 }
 .nav a:hover {
 	color: #ff520c;
 }
-/*.jumbotron {
-	padding: 0px;
-	min-width: 100%;
-}*/
 .title-overlay {
-	margin: 10vh;
- 	min-height: 30vh;
+	margin: 40vh 0;
+ 	min-height: 40vh;
+ 	font-size: 30px;
+ 	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+ 	color: #ffffff;
 }   
 
 /* This is just some CSS styling to make the video fill 100% of its div */
@@ -74,11 +73,17 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+.real-estate-div {
+    box-shadow: 2px 3px 28px 3px grey;
+}
 .real-estate-div h3 {
 	padding: 20px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    color: #ffffff;
 }
 .real-estate-div img {
-	max-width: 100%;
+    min-width: 100px;
+	max-height: 300px;
 }
 .marketing-div div {
 	max-height: 300px;
