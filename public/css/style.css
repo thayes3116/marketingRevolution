@@ -39,14 +39,22 @@ body{
 	color: #ff520c;
 }
 .title-overlay {
-	margin: 40vh 0;
+	margin: 5vh 0;
  	min-height: 40vh;
  	font-size: 30px;
  	text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
  	color: #ffffff;
 }   
 .video-overlay {
-    height: 40vh;
+    height: 20vh;
+    max-width: 300px;
+}
+.video-overlay video{
+    width: 100%;
+}
+.host-video-div {
+    display:flex;
+    justify-content: center;
 }
 /* This is just some CSS styling to make the video fill 100% of its div */
 .videoContainer {
